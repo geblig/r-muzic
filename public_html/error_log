@@ -1,0 +1,76 @@
+[06-May-2014 13:48:47 UTC] PHP Fatal error:  Class 'Facebook\FacebookSession' not found in /home/itzik1677/public_html/test.php on line 7
+[06-May-2014 13:50:01 UTC] PHP Fatal error:  Class 'FacebookSession' not found in /home/itzik1677/public_html/test.php on line 6
+[06-May-2014 13:56:56 UTC] PHP Fatal error:  Class 'Facebook\FacebookSession' not found in /home/itzik1677/public_html/test.php on line 14
+[06-May-2014 13:57:18 UTC] PHP Fatal error:  Class 'Facebook\FacebookSession' not found in /home/itzik1677/public_html/test.php on line 16
+[06-May-2014 13:57:21 UTC] PHP Fatal error:  Class 'Facebook\FacebookSession' not found in /home/itzik1677/public_html/test.php on line 16
+[06-May-2014 13:58:51 UTC] PHP Fatal error:  Class 'FacebookJavaScriptLoginHelper' not found in /home/itzik1677/public_html/test.php on line 22
+[06-May-2014 14:01:41 UTC] PHP Notice:  Undefined variable: session in /home/itzik1677/public_html/test.php on line 37
+[06-May-2014 14:03:37 UTC] PHP Notice:  Undefined variable: session in /home/itzik1677/public_html/test.php on line 38
+[06-May-2014 14:03:37 UTC] PHP Fatal error:  Class 'Facebook\FacebookOtherException' not found in /home/itzik1677/public_html/Facebook/FacebookRequestException.php on line 110
+[06-May-2014 14:04:27 UTC] PHP Notice:  Undefined variable: session in /home/itzik1677/public_html/test.php on line 40
+[06-May-2014 14:04:27 UTC] PHP Fatal error:  Uncaught exception 'Facebook\FacebookOtherException' with message 'An active access token must be used to query information about the current user.' in /home/itzik1677/public_html/Facebook/FacebookRequestException.php:110
+Stack trace:
+#0 /home/itzik1677/public_html/Facebook/FacebookRequest.php(233): Facebook\FacebookRequestException::create('{"error":{"mess...', Object(stdClass), 400)
+#1 /home/itzik1677/public_html/test.php(41): Facebook\FacebookRequest->execute()
+#2 {main}
+  thrown in /home/itzik1677/public_html/Facebook/FacebookRequestException.php on line 110
+[06-May-2014 14:06:45 UTC] PHP Fatal error:  Class 'Facebook\FacebookSession' not found in /home/itzik1677/public_html/index.php on line 9
+[06-May-2014 14:06:49 UTC] PHP Notice:  Undefined variable: session in /home/itzik1677/public_html/test.php on line 40
+[06-May-2014 14:06:49 UTC] PHP Fatal error:  Uncaught exception 'Facebook\FacebookOtherException' with message 'An active access token must be used to query information about the current user.' in /home/itzik1677/public_html/Facebook/FacebookRequestException.php:110
+Stack trace:
+#0 /home/itzik1677/public_html/Facebook/FacebookRequest.php(233): Facebook\FacebookRequestException::create('{"error":{"mess...', Object(stdClass), 400)
+#1 /home/itzik1677/public_html/test.php(41): Facebook\FacebookRequest->execute()
+#2 {main}
+  thrown in /home/itzik1677/public_html/Facebook/FacebookRequestException.php on line 110
+[06-May-2014 14:07:15 UTC] PHP Notice:  Undefined variable: session in /home/itzik1677/public_html/test.php on line 40
+[06-May-2014 14:07:16 UTC] PHP Fatal error:  Uncaught exception 'Facebook\FacebookOtherException' with message 'An active access token must be used to query information about the current user.' in /home/itzik1677/public_html/Facebook/FacebookRequestException.php:110
+Stack trace:
+#0 /home/itzik1677/public_html/Facebook/FacebookRequest.php(233): Facebook\FacebookRequestException::create('{"error":{"mess...', Object(stdClass), 400)
+#1 /home/itzik1677/public_html/test.php(41): Facebook\FacebookRequest->execute()
+#2 {main}
+  thrown in /home/itzik1677/public_html/Facebook/FacebookRequestException.php on line 110
+[06-May-2014 14:16:57 UTC] PHP Warning:  require(/Facebook/facebook.php): failed to open stream: No such file or directory in /home/itzik1677/public_html/test.php on line 6
+[06-May-2014 14:17:38 UTC] PHP Warning:  require_once(base_facebook.php): failed to open stream: No such file or directory in /home/itzik1677/public_html/Facebook/facebook.php on line 18
+[06-May-2014 14:19:08 UTC] PHP Warning:  require_once(base_facebook.php): failed to open stream: No such file or directory in /home/itzik1677/public_html/Facebook/facebook.php on line 18
+[06-May-2014 14:20:04 UTC] PHP Fatal error:  require(): Cannot redeclare class facebookapiexception in /home/itzik1677/public_html/test.php on line 7
+[06-May-2014 14:20:50 UTC] PHP Notice:  Use of undefined constant a89e30e75895918826d69b793878a576 - assumed 'a89e30e75895918826d69b793878a576' in /home/itzik1677/public_html/test.php on line 10
+[06-May-2014 14:20:50 UTC] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/itzik1677/public_html/test.php:4) in /home/itzik1677/public_html/Facebook/facebook.php on line 60
+[06-May-2014 14:20:50 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/itzik1677/public_html/test.php:4) in /home/itzik1677/public_html/Facebook/facebook.php on line 60
+[06-May-2014 14:20:51 UTC] There exists a cookie that we wanted to clear that we couldn't clear because headers was already sent. Make sure to do the first API call before outputing anything.
+[06-May-2014 14:29:59 UTC] PHP Notice:  Use of undefined constant a89e30e75895918826d69b793878a576 - assumed 'a89e30e75895918826d69b793878a576' in /home/itzik1677/public_html/test.php on line 10
+[06-May-2014 14:29:59 UTC] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/itzik1677/public_html/test.php:4) in /home/itzik1677/public_html/Facebook/facebook.php on line 60
+[06-May-2014 14:29:59 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/itzik1677/public_html/test.php:4) in /home/itzik1677/public_html/Facebook/facebook.php on line 60
+[06-May-2014 14:30:00 UTC] There exists a cookie that we wanted to clear that we couldn't clear because headers was already sent. Make sure to do the first API call before outputing anything.
+[06-May-2014 14:30:00 UTC] PHP Fatal error:  Uncaught OAuthException: An active access token must be used to query information about the current user.
+  thrown in /home/itzik1677/public_html/Facebook/base_facebook.php on line 1325
+[06-May-2014 14:30:32 UTC] PHP Notice:  Use of undefined constant a89e30e75895918826d69b793878a576 - assumed 'a89e30e75895918826d69b793878a576' in /home/itzik1677/public_html/test.php on line 10
+[06-May-2014 14:30:32 UTC] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/itzik1677/public_html/test.php:4) in /home/itzik1677/public_html/Facebook/facebook.php on line 60
+[06-May-2014 14:30:32 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/itzik1677/public_html/test.php:4) in /home/itzik1677/public_html/Facebook/facebook.php on line 60
+[06-May-2014 14:30:32 UTC] There exists a cookie that we wanted to clear that we couldn't clear because headers was already sent. Make sure to do the first API call before outputing anything.
+[06-May-2014 14:30:33 UTC] PHP Fatal error:  Uncaught OAuthException: An active access token must be used to query information about the current user.
+  thrown in /home/itzik1677/public_html/Facebook/base_facebook.php on line 1325
+[06-May-2014 14:30:46 UTC] PHP Notice:  Use of undefined constant a89e30e75895918826d69b793878a576 - assumed 'a89e30e75895918826d69b793878a576' in /home/itzik1677/public_html/test.php on line 10
+[06-May-2014 14:30:46 UTC] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/itzik1677/public_html/test.php:4) in /home/itzik1677/public_html/Facebook/facebook.php on line 60
+[06-May-2014 14:30:46 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/itzik1677/public_html/test.php:4) in /home/itzik1677/public_html/Facebook/facebook.php on line 60
+[06-May-2014 14:30:47 UTC] There exists a cookie that we wanted to clear that we couldn't clear because headers was already sent. Make sure to do the first API call before outputing anything.
+[06-May-2014 14:30:47 UTC] PHP Fatal error:  Uncaught OAuthException: An active access token must be used to query information about the current user.
+  thrown in /home/itzik1677/public_html/Facebook/base_facebook.php on line 1325
+[06-May-2014 14:32:36 UTC] PHP Fatal error:  Class 'Facebook\FacebookSession' not found in /home/itzik1677/public_html/index.php on line 9
+[06-May-2014 14:33:27 UTC] PHP Notice:  Use of undefined constant a89e30e75895918826d69b793878a576 - assumed 'a89e30e75895918826d69b793878a576' in /home/itzik1677/public_html/test.php on line 10
+[06-May-2014 14:33:27 UTC] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/itzik1677/public_html/test.php:4) in /home/itzik1677/public_html/Facebook/facebook.php on line 60
+[06-May-2014 14:33:27 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/itzik1677/public_html/test.php:4) in /home/itzik1677/public_html/Facebook/facebook.php on line 60
+[06-May-2014 14:34:58 UTC] PHP Notice:  Use of undefined constant a89e30e75895918826d69b793878a576 - assumed 'a89e30e75895918826d69b793878a576' in /home/itzik1677/public_html/test.php on line 10
+[06-May-2014 14:34:58 UTC] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/itzik1677/public_html/test.php:4) in /home/itzik1677/public_html/Facebook/facebook.php on line 60
+[06-May-2014 14:34:58 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/itzik1677/public_html/test.php:4) in /home/itzik1677/public_html/Facebook/facebook.php on line 60
+[06-May-2014 14:34:59 UTC] There exists a cookie that we wanted to clear that we couldn't clear because headers was already sent. Make sure to do the first API call before outputing anything.
+[06-May-2014 14:34:59 UTC] PHP Fatal error:  Uncaught OAuthException: An active access token must be used to query information about the current user.
+  thrown in /home/itzik1677/public_html/Facebook/base_facebook.php on line 1325
+[06-May-2014 14:35:11 UTC] PHP Notice:  Use of undefined constant a89e30e75895918826d69b793878a576 - assumed 'a89e30e75895918826d69b793878a576' in /home/itzik1677/public_html/test.php on line 10
+[06-May-2014 14:35:11 UTC] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/itzik1677/public_html/test.php:4) in /home/itzik1677/public_html/Facebook/facebook.php on line 60
+[06-May-2014 14:35:11 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/itzik1677/public_html/test.php:4) in /home/itzik1677/public_html/Facebook/facebook.php on line 60
+[06-May-2014 14:35:12 UTC] There exists a cookie that we wanted to clear that we couldn't clear because headers was already sent. Make sure to do the first API call before outputing anything.
+[06-May-2014 14:35:12 UTC] PHP Fatal error:  Uncaught OAuthException: An active access token must be used to query information about the current user.
+  thrown in /home/itzik1677/public_html/Facebook/base_facebook.php on line 1325
+[06-May-2014 14:35:32 UTC] PHP Notice:  Use of undefined constant a89e30e75895918826d69b793878a576 - assumed 'a89e30e75895918826d69b793878a576' in /home/itzik1677/public_html/test.php on line 10
+[06-May-2014 14:35:32 UTC] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/itzik1677/public_html/test.php:4) in /home/itzik1677/public_html/Facebook/facebook.php on line 60
+[06-May-2014 14:35:32 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/itzik1677/public_html/test.php:4) in /home/itzik1677/public_html/Facebook/facebook.php on line 60

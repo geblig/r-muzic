@@ -1,0 +1,885 @@
+[08-Apr-2014 17:06:10 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Unable to open stream [http://shoutcast1.ashams.info:80]' in /home/itzik1677/public_html/php/stream.php:39
+Stack trace:
+#0 /home/itzik1677/public_html/php/stream.php(42): getMp3StreamTitle('http://shoutcas...', 19200)
+#1 {main}
+  thrown in /home/itzik1677/public_html/php/stream.php on line 39
+[08-Apr-2014 17:07:41 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Unable to open stream [http://shoutcast1.ashams.info:80]' in /home/itzik1677/public_html/php/stream.php:40
+Stack trace:
+#0 /home/itzik1677/public_html/php/stream.php(43): getMp3StreamTitle('http://shoutcas...', 19200)
+#1 {main}
+  thrown in /home/itzik1677/public_html/php/stream.php on line 40
+[08-Apr-2014 17:07:56 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Unable to open stream [http://shoutcast1.ashams.info:80]' in /home/itzik1677/public_html/php/stream.php:40
+Stack trace:
+#0 /home/itzik1677/public_html/php/stream.php(43): getMp3StreamTitle('http://shoutcas...', 19200)
+#1 {main}
+  thrown in /home/itzik1677/public_html/php/stream.php on line 40
+[08-Apr-2014 17:08:22 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Unable to open stream [http://shoutcast1.ashams.info:80]' in /home/itzik1677/public_html/php/stream.php:40
+Stack trace:
+#0 /home/itzik1677/public_html/php/stream.php(43): getMp3StreamTitle('http://shoutcas...', 19200)
+#1 {main}
+  thrown in /home/itzik1677/public_html/php/stream.php on line 40
+[08-Apr-2014 21:01:09 UTC] PHP Fatal error:  Cannot access self:: when no class scope is active in /home/itzik1677/public_html/php/stream.php on line 32
+[08-Apr-2014 21:02:19 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'URL `mms://sv9wm.castup.net/990310006-52.wmv?ct=IL&rg=NV&aid=31&tkn=20140408204203&ts=0&cu=EFF0719F-63E0-4A98-AF88-2D5B0A45E575` is invalid.' in /home/itzik1677/public_html/php/stream.php:42
+Stack trace:
+#0 {main}
+  thrown in /home/itzik1677/public_html/php/stream.php on line 42
+[11-Apr-2014 23:23:49 UTC] PHP Fatal error:  Call to undefined function escape() in /home/itzik1677/public_html/php/main.php on line 32
+[11-Apr-2014 23:48:52 UTC] PHP Warning:  mysql_set_charset() expects parameter 2 to be resource, object given in /home/itzik1677/public_html/php/main.php on line 12
+[11-Apr-2014 23:48:52 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/itzik1677/public_html/php/main.php:12) in /home/itzik1677/public_html/php/main.php on line 29
+[11-Apr-2014 23:48:52 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/itzik1677/public_html/php/main.php:12) in /home/itzik1677/public_html/php/main.php on line 32
+[11-Apr-2014 23:48:53 UTC] PHP Warning:  file_get_contents(http://ws.audioscrobbler.com/2.0/?method=artist.getinfo&amp;artist=ברי סחרוף&amp;api_key=327927be40a0df73e9a605e03c397d91&amp;format=json&amp;limit=5): failed to open stream: HTTP request failed!  in /home/itzik1677/public_html/php/main.php on line 33
+[11-Apr-2014 23:51:34 UTC] PHP Warning:  mysql_set_charset() expects parameter 2 to be resource, object given in /home/itzik1677/public_html/php/main.php on line 17
+[11-Apr-2014 23:51:34 UTC] PHP Warning:  file_get_contents(http://ws.audioscrobbler.com/2.0/?method=artist.getinfo&amp;artist=ברי סחרוף&amp;api_key=327927be40a0df73e9a605e03c397d91&amp;format=json&amp;limit=5): failed to open stream: HTTP request failed!  in /home/itzik1677/public_html/php/main.php on line 38
+[11-Apr-2014 23:52:50 UTC] PHP Warning:  mysql_set_charset() expects parameter 2 to be resource, object given in /home/itzik1677/public_html/php/main.php on line 17
+[11-Apr-2014 23:52:50 UTC] PHP Warning:  file_get_contents(http://ws.audioscrobbler.com/2.0/?method=artist.getinfo&amp;artist=ברי סחרוף&amp;api_key=327927be40a0df73e9a605e03c397d91&amp;format=json&amp;limit=5): failed to open stream: HTTP request failed!  in /home/itzik1677/public_html/php/main.php on line 38
+[11-Apr-2014 23:53:26 UTC] PHP Warning:  mysql_set_charset() expects parameter 2 to be resource, object given in /home/itzik1677/public_html/php/main.php on line 13
+[11-Apr-2014 23:54:27 UTC] PHP Warning:  mysql_set_charset() expects parameter 2 to be resource, object given in /home/itzik1677/public_html/php/main.php on line 13
+[11-Apr-2014 23:54:27 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/itzik1677/public_html/php/main.php:2) in /home/itzik1677/public_html/php/main.php on line 30
+[11-Apr-2014 23:54:28 UTC] PHP Warning:  file_get_contents(http://ws.audioscrobbler.com/2.0/?method=artist.getinfo&amp;artist=ברי סחרוף&amp;api_key=327927be40a0df73e9a605e03c397d91&amp;format=json&amp;limit=5): failed to open stream: HTTP request failed!  in /home/itzik1677/public_html/php/main.php on line 35
+[11-Apr-2014 23:55:51 UTC] PHP Warning:  mysql_set_charset() expects parameter 2 to be resource, object given in /home/itzik1677/public_html/php/main.php on line 15
+[11-Apr-2014 23:55:51 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/itzik1677/public_html/php/main.php:4) in /home/itzik1677/public_html/php/main.php on line 32
+[11-Apr-2014 23:55:51 UTC] PHP Warning:  file_get_contents(http://ws.audioscrobbler.com/2.0/?method=artist.getinfo&amp;artist=ברי סחרוף&amp;api_key=327927be40a0df73e9a605e03c397d91&amp;format=json&amp;limit=5): failed to open stream: HTTP request failed!  in /home/itzik1677/public_html/php/main.php on line 37
+[11-Apr-2014 23:56:27 UTC] PHP Warning:  mysql_set_charset() expects parameter 2 to be resource, object given in /home/itzik1677/public_html/php/main.php on line 15
+[11-Apr-2014 23:56:27 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/itzik1677/public_html/php/main.php:4) in /home/itzik1677/public_html/php/main.php on line 32
+[11-Apr-2014 23:56:27 UTC] PHP Warning:  file_get_contents(http://ws.audioscrobbler.com/2.0/?method=artist.getinfo&amp;artist=ברי סחרוף&amp;api_key=327927be40a0df73e9a605e03c397d91&amp;format=json&amp;limit=5): failed to open stream: HTTP request failed!  in /home/itzik1677/public_html/php/main.php on line 37
+[11-Apr-2014 23:57:10 UTC] PHP Warning:  mysql_set_charset() expects parameter 2 to be resource, object given in /home/itzik1677/public_html/php/main.php on line 15
+[11-Apr-2014 23:57:10 UTC] PHP Warning:  file_get_contents(http://ws.audioscrobbler.com/2.0/?method=artist.getinfo&amp;artist=ברי סחרוף &amp;api_key=327927be40a0df73e9a605e03c397d91&amp;format=json&amp;limit=5): failed to open stream: HTTP request failed!  in /home/itzik1677/public_html/php/main.php on line 38
+[11-Apr-2014 23:57:39 UTC] PHP Warning:  mysql_set_charset() expects parameter 2 to be resource, object given in /home/itzik1677/public_html/php/main.php on line 15
+[11-Apr-2014 23:57:52 UTC] PHP Warning:  mysql_set_charset() expects parameter 2 to be resource, object given in /home/itzik1677/public_html/php/main.php on line 15
+[11-Apr-2014 23:57:52 UTC] PHP Warning:  file_get_contents(http://ws.audioscrobbler.com/2.0/?method=artist.getinfo&amp;artist=beyonce &amp;api_key=327927be40a0df73e9a605e03c397d91&amp;format=json&amp;limit=5): failed to open stream: HTTP request failed!  in /home/itzik1677/public_html/php/main.php on line 39
+[11-Apr-2014 23:58:42 UTC] PHP Warning:  mysql_set_charset() expects parameter 2 to be resource, object given in /home/itzik1677/public_html/php/main.php on line 17
+[11-Apr-2014 23:58:42 UTC] PHP Warning:  file_get_contents(http://ws.audioscrobbler.com/2.0/?method=artist.getinfo&amp;artist=ברי סחרוף&amp;api_key=327927be40a0df73e9a605e03c397d91&amp;format=json&amp;limit=5): failed to open stream: HTTP request failed!  in /home/itzik1677/public_html/php/main.php on line 40
+[11-Apr-2014 23:59:10 UTC] PHP Warning:  mysql_set_charset() expects parameter 2 to be resource, object given in /home/itzik1677/public_html/php/main.php on line 17
+[11-Apr-2014 23:59:45 UTC] PHP Warning:  mysql_set_charset() expects parameter 2 to be resource, object given in /home/itzik1677/public_html/php/main.php on line 17
+[12-Apr-2014 00:00:24 UTC] PHP Warning:  mysql_set_charset() expects parameter 2 to be resource, object given in /home/itzik1677/public_html/php/main.php on line 17
+[12-Apr-2014 00:03:13 UTC] PHP Warning:  mysql_set_charset() expects parameter 2 to be resource, object given in /home/itzik1677/public_html/php/main.php on line 17
+[12-Apr-2014 00:06:56 UTC] PHP Warning:  mysql_set_charset() expects parameter 2 to be resource, object given in /home/itzik1677/public_html/php/main.php on line 13
+[12-Apr-2014 00:06:56 UTC] PHP Warning:  file_get_contents(http://ws.audioscrobbler.com/2.0/?method=artist.getinfo&amp;artist=ברי סחרוף&amp;api_key=327927be40a0df73e9a605e03c397d91&amp;format=json&amp;limit=5): failed to open stream: HTTP request failed!  in /home/itzik1677/public_html/php/main.php on line 36
+[12-Apr-2014 00:07:36 UTC] PHP Warning:  mysql_set_charset() expects parameter 2 to be resource, object given in /home/itzik1677/public_html/php/main.php on line 13
+[12-Apr-2014 00:10:18 UTC] PHP Warning:  mysql_set_charset() expects parameter 2 to be resource, object given in /home/itzik1677/public_html/php/main.php on line 13
+[12-Apr-2014 00:11:07 UTC] PHP Warning:  mysql_set_charset() expects parameter 2 to be resource, object given in /home/itzik1677/public_html/php/main.php on line 13
+[12-Apr-2014 00:11:07 UTC] PHP Warning:  file_get_contents(http://ws.audioscrobbler.com/2.0/?method=artist.getinfo&amp;artist=ברי סחרוף&amp;api_key=327927be40a0df73e9a605e03c397d91&amp;format=json&amp;limit=5): failed to open stream: HTTP request failed!  in /home/itzik1677/public_html/php/main.php on line 37
+[12-Apr-2014 00:11:24 UTC] PHP Warning:  mysql_set_charset() expects parameter 2 to be resource, object given in /home/itzik1677/public_html/php/main.php on line 13
+[12-Apr-2014 00:11:47 UTC] PHP Warning:  mysql_set_charset() expects parameter 2 to be resource, object given in /home/itzik1677/public_html/php/main.php on line 13
+[12-Apr-2014 00:12:06 UTC] PHP Warning:  mysql_set_charset() expects parameter 2 to be resource, object given in /home/itzik1677/public_html/php/main.php on line 13
+[12-Apr-2014 00:12:26 UTC] PHP Warning:  mysql_set_charset() expects parameter 2 to be resource, object given in /home/itzik1677/public_html/php/main.php on line 13
+[12-Apr-2014 00:12:46 UTC] PHP Warning:  mysql_set_charset() expects parameter 2 to be resource, object given in /home/itzik1677/public_html/php/main.php on line 13
+[12-Apr-2014 18:37:51 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Unable to open stream [/dat/1.mp3]' in /home/itzik1677/public_html/php/stream.php:39
+Stack trace:
+#0 /home/itzik1677/public_html/php/stream.php(42): getMp3StreamTitle('/dat/1.mp3', 19200)
+#1 {main}
+  thrown in /home/itzik1677/public_html/php/stream.php on line 39
+[12-Apr-2014 18:38:06 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 130968 bytes) in /home/itzik1677/public_html/php/stream.php on line 36
+[12-Apr-2014 18:42:00 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 130968 bytes) in /home/itzik1677/public_html/php/stream.php on line 36
+[15-Apr-2014 17:01:40 UTC] PHP Fatal error:  Cannot use object of type stdClass as array in /home/itzik1677/public_html/php/main.php on line 78
+[15-Apr-2014 17:02:00 UTC] PHP Fatal error:  Cannot use object of type stdClass as array in /home/itzik1677/public_html/php/main.php on line 78
+[15-Apr-2014 17:02:04 UTC] PHP Fatal error:  Cannot use object of type stdClass as array in /home/itzik1677/public_html/php/main.php on line 78
+[16-Apr-2014 15:17:08 UTC] PHP Warning:  mysql_set_charset() expects parameter 2 to be resource, object given in /home/itzik1677/public_html/php/main.php on line 24
+[16-Apr-2014 15:17:08 UTC] PHP Notice:  Undefined index: channel in /home/itzik1677/public_html/php/main.php on line 28
+[16-Apr-2014 15:17:40 UTC] PHP Warning:  mysql_set_charset() expects parameter 2 to be resource, object given in /home/itzik1677/public_html/php/main.php on line 24
+[16-Apr-2014 15:17:40 UTC] PHP Notice:  Undefined index: channel in /home/itzik1677/public_html/php/main.php on line 28
+[16-Apr-2014 15:17:44 UTC] PHP Warning:  mysql_set_charset() expects parameter 2 to be resource, object given in /home/itzik1677/public_html/php/main.php on line 24
+[16-Apr-2014 15:17:44 UTC] PHP Notice:  Undefined index: channel in /home/itzik1677/public_html/php/main.php on line 28
+[16-Apr-2014 16:11:06 UTC] PHP Warning:  mysql_set_charset() expects parameter 2 to be resource, object given in /home/itzik1677/public_html/php/main.php on line 24
+[16-Apr-2014 16:11:06 UTC] PHP Notice:  Undefined index: channel in /home/itzik1677/public_html/php/main.php on line 28
+[16-Apr-2014 16:11:06 UTC] PHP Warning:  file_get_contents(http://gdata.youtube.com/feeds/api/videos?q=Scorpions Tease Me Please Me&amp;orderby=viewCount&amp;alt=json): failed to open stream: HTTP request failed! HTTP/1.0 400 Bad Request
+ in /home/itzik1677/public_html/php/main.php on line 101
+[16-Apr-2014 16:11:06 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 102
+[16-Apr-2014 16:11:06 UTC] PHP Warning:  file_get_contents(http://gdata.youtube.com/feeds/api/videos?q=Scorpions Don't Believe Her&amp;orderby=viewCount&amp;alt=json): failed to open stream: HTTP request failed! HTTP/1.0 400 Bad Request
+ in /home/itzik1677/public_html/php/main.php on line 101
+[16-Apr-2014 16:11:06 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 102
+[16-Apr-2014 16:11:06 UTC] PHP Warning:  file_get_contents(http://gdata.youtube.com/feeds/api/videos?q=Scorpions To Be With You In Heaven&amp;orderby=viewCount&amp;alt=json): failed to open stream: HTTP request failed! HTTP/1.0 400 Bad Request
+ in /home/itzik1677/public_html/php/main.php on line 101
+[16-Apr-2014 16:11:06 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 102
+[16-Apr-2014 16:11:06 UTC] PHP Warning:  file_get_contents(http://gdata.youtube.com/feeds/api/videos?q=Scorpions Wind of Change&amp;orderby=viewCount&amp;alt=json): failed to open stream: HTTP request failed! HTTP/1.0 400 Bad Request
+ in /home/itzik1677/public_html/php/main.php on line 101
+[16-Apr-2014 16:11:06 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 102
+[16-Apr-2014 16:11:06 UTC] PHP Warning:  file_get_contents(http://gdata.youtube.com/feeds/api/videos?q=Scorpions Restless Nights&amp;orderby=viewCount&amp;alt=json): failed to open stream: HTTP request failed! HTTP/1.0 400 Bad Request
+ in /home/itzik1677/public_html/php/main.php on line 101
+[16-Apr-2014 16:11:06 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 102
+[16-Apr-2014 16:11:06 UTC] PHP Warning:  file_get_contents(http://gdata.youtube.com/feeds/api/videos?q=Scorpions Lust Or Love&amp;orderby=viewCount&amp;alt=json): failed to open stream: HTTP request failed! HTTP/1.0 400 Bad Request
+ in /home/itzik1677/public_html/php/main.php on line 101
+[16-Apr-2014 16:11:06 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 102
+[16-Apr-2014 16:11:06 UTC] PHP Warning:  file_get_contents(http://gdata.youtube.com/feeds/api/videos?q=Scorpions Kicks After Six&amp;orderby=viewCount&amp;alt=json): failed to open stream: HTTP request failed! HTTP/1.0 400 Bad Request
+ in /home/itzik1677/public_html/php/main.php on line 101
+[16-Apr-2014 16:11:06 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 102
+[16-Apr-2014 16:11:06 UTC] PHP Warning:  file_get_contents(http://gdata.youtube.com/feeds/api/videos?q=Scorpions Hit Between The Eyes&amp;orderby=viewCount&amp;alt=json): failed to open stream: HTTP request failed! HTTP/1.0 400 Bad Request
+ in /home/itzik1677/public_html/php/main.php on line 101
+[16-Apr-2014 16:11:06 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 102
+[16-Apr-2014 16:11:07 UTC] PHP Warning:  file_get_contents(http://gdata.youtube.com/feeds/api/videos?q=Scorpions Money And Fame&amp;orderby=viewCount&amp;alt=json): failed to open stream: HTTP request failed! HTTP/1.0 400 Bad Request
+ in /home/itzik1677/public_html/php/main.php on line 101
+[16-Apr-2014 16:11:07 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 102
+[16-Apr-2014 16:11:07 UTC] PHP Warning:  file_get_contents(http://gdata.youtube.com/feeds/api/videos?q=Scorpions Crazy World&amp;orderby=viewCount&amp;alt=json): failed to open stream: HTTP request failed! HTTP/1.0 400 Bad Request
+ in /home/itzik1677/public_html/php/main.php on line 101
+[16-Apr-2014 16:11:07 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 102
+[16-Apr-2014 16:11:07 UTC] PHP Warning:  file_get_contents(http://gdata.youtube.com/feeds/api/videos?q=Scorpions Send Me An Angel&amp;orderby=viewCount&amp;alt=json): failed to open stream: HTTP request failed! HTTP/1.0 400 Bad Request
+ in /home/itzik1677/public_html/php/main.php on line 101
+[16-Apr-2014 16:11:07 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 102
+[16-Apr-2014 16:11:34 UTC] PHP Warning:  mysql_set_charset() expects parameter 2 to be resource, object given in /home/itzik1677/public_html/php/main.php on line 24
+[16-Apr-2014 16:11:34 UTC] PHP Notice:  Undefined index: channel in /home/itzik1677/public_html/php/main.php on line 28
+[16-Apr-2014 16:11:34 UTC] PHP Warning:  file_get_contents(http://gdata.youtube.com/feeds/api/videos?q=Scorpions Tease Me Please Me&amp;orderby=viewCount&amp;alt=json): failed to open stream: HTTP request failed! HTTP/1.0 400 Bad Request
+ in /home/itzik1677/public_html/php/main.php on line 101
+[16-Apr-2014 16:11:34 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 102
+[16-Apr-2014 16:11:34 UTC] PHP Warning:  file_get_contents(http://gdata.youtube.com/feeds/api/videos?q=Scorpions Don't Believe Her&amp;orderby=viewCount&amp;alt=json): failed to open stream: HTTP request failed! HTTP/1.0 400 Bad Request
+ in /home/itzik1677/public_html/php/main.php on line 101
+[16-Apr-2014 16:11:34 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 102
+[16-Apr-2014 16:11:34 UTC] PHP Warning:  file_get_contents(http://gdata.youtube.com/feeds/api/videos?q=Scorpions To Be With You In Heaven&amp;orderby=viewCount&amp;alt=json): failed to open stream: HTTP request failed! HTTP/1.0 400 Bad Request
+ in /home/itzik1677/public_html/php/main.php on line 101
+[16-Apr-2014 16:11:34 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 102
+[16-Apr-2014 16:11:34 UTC] PHP Warning:  file_get_contents(http://gdata.youtube.com/feeds/api/videos?q=Scorpions Wind of Change&amp;orderby=viewCount&amp;alt=json): failed to open stream: HTTP request failed! HTTP/1.0 400 Bad Request
+ in /home/itzik1677/public_html/php/main.php on line 101
+[16-Apr-2014 16:11:34 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 102
+[16-Apr-2014 16:11:34 UTC] PHP Warning:  file_get_contents(http://gdata.youtube.com/feeds/api/videos?q=Scorpions Restless Nights&amp;orderby=viewCount&amp;alt=json): failed to open stream: HTTP request failed! HTTP/1.0 400 Bad Request
+ in /home/itzik1677/public_html/php/main.php on line 101
+[16-Apr-2014 16:11:34 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 102
+[16-Apr-2014 16:11:35 UTC] PHP Warning:  file_get_contents(http://gdata.youtube.com/feeds/api/videos?q=Scorpions Lust Or Love&amp;orderby=viewCount&amp;alt=json): failed to open stream: HTTP request failed! HTTP/1.0 400 Bad Request
+ in /home/itzik1677/public_html/php/main.php on line 101
+[16-Apr-2014 16:11:35 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 102
+[16-Apr-2014 16:11:35 UTC] PHP Warning:  file_get_contents(http://gdata.youtube.com/feeds/api/videos?q=Scorpions Kicks After Six&amp;orderby=viewCount&amp;alt=json): failed to open stream: HTTP request failed! HTTP/1.0 400 Bad Request
+ in /home/itzik1677/public_html/php/main.php on line 101
+[16-Apr-2014 16:11:35 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 102
+[16-Apr-2014 16:11:35 UTC] PHP Warning:  file_get_contents(http://gdata.youtube.com/feeds/api/videos?q=Scorpions Hit Between The Eyes&amp;orderby=viewCount&amp;alt=json): failed to open stream: HTTP request failed! HTTP/1.0 400 Bad Request
+ in /home/itzik1677/public_html/php/main.php on line 101
+[16-Apr-2014 16:11:35 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 102
+[16-Apr-2014 16:11:35 UTC] PHP Warning:  file_get_contents(http://gdata.youtube.com/feeds/api/videos?q=Scorpions Money And Fame&amp;orderby=viewCount&amp;alt=json): failed to open stream: HTTP request failed! HTTP/1.0 400 Bad Request
+ in /home/itzik1677/public_html/php/main.php on line 101
+[16-Apr-2014 16:11:35 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 102
+[16-Apr-2014 16:11:35 UTC] PHP Warning:  file_get_contents(http://gdata.youtube.com/feeds/api/videos?q=Scorpions Crazy World&amp;orderby=viewCount&amp;alt=json): failed to open stream: HTTP request failed! HTTP/1.0 400 Bad Request
+ in /home/itzik1677/public_html/php/main.php on line 101
+[16-Apr-2014 16:11:35 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 102
+[16-Apr-2014 16:11:35 UTC] PHP Warning:  file_get_contents(http://gdata.youtube.com/feeds/api/videos?q=Scorpions Send Me An Angel&amp;orderby=viewCount&amp;alt=json): failed to open stream: HTTP request failed! HTTP/1.0 400 Bad Request
+ in /home/itzik1677/public_html/php/main.php on line 101
+[16-Apr-2014 16:11:35 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 102
+[16-Apr-2014 16:13:02 UTC] PHP Warning:  mysql_set_charset() expects parameter 2 to be resource, object given in /home/itzik1677/public_html/php/main.php on line 24
+[16-Apr-2014 16:13:02 UTC] PHP Notice:  Undefined index: channel in /home/itzik1677/public_html/php/main.php on line 28
+[16-Apr-2014 16:13:03 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 103
+[16-Apr-2014 16:13:03 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 103
+[16-Apr-2014 16:13:04 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 103
+[16-Apr-2014 16:13:04 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 103
+[16-Apr-2014 16:13:04 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 103
+[16-Apr-2014 16:13:05 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 103
+[16-Apr-2014 16:13:05 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 103
+[16-Apr-2014 16:13:06 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 103
+[16-Apr-2014 16:13:06 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 103
+[16-Apr-2014 16:13:07 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 103
+[16-Apr-2014 16:13:07 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 103
+[16-Apr-2014 16:13:50 UTC] PHP Warning:  mysql_set_charset() expects parameter 2 to be resource, object given in /home/itzik1677/public_html/php/main.php on line 24
+[16-Apr-2014 16:13:50 UTC] PHP Notice:  Undefined index: channel in /home/itzik1677/public_html/php/main.php on line 28
+[16-Apr-2014 16:13:51 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 103
+[16-Apr-2014 16:13:51 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 103
+[16-Apr-2014 16:13:52 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 103
+[16-Apr-2014 16:13:52 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 103
+[16-Apr-2014 16:13:52 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 103
+[16-Apr-2014 16:13:52 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 103
+[16-Apr-2014 16:13:53 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 103
+[16-Apr-2014 16:13:53 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 103
+[16-Apr-2014 16:13:53 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 103
+[16-Apr-2014 16:13:53 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 103
+[16-Apr-2014 16:13:54 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 103
+[16-Apr-2014 16:14:37 UTC] PHP Warning:  mysql_set_charset() expects parameter 2 to be resource, object given in /home/itzik1677/public_html/php/main.php on line 24
+[16-Apr-2014 16:14:37 UTC] PHP Notice:  Undefined index: channel in /home/itzik1677/public_html/php/main.php on line 28
+[16-Apr-2014 16:14:38 UTC] PHP Notice:  Undefined property: stdClass::$id in /home/itzik1677/public_html/php/main.php on line 103
+[16-Apr-2014 16:14:39 UTC] PHP Notice:  Undefined property: stdClass::$id in /home/itzik1677/public_html/php/main.php on line 103
+[16-Apr-2014 16:14:39 UTC] PHP Notice:  Undefined property: stdClass::$id in /home/itzik1677/public_html/php/main.php on line 103
+[16-Apr-2014 16:14:39 UTC] PHP Notice:  Undefined property: stdClass::$id in /home/itzik1677/public_html/php/main.php on line 103
+[16-Apr-2014 16:14:39 UTC] PHP Notice:  Undefined property: stdClass::$id in /home/itzik1677/public_html/php/main.php on line 103
+[16-Apr-2014 16:14:40 UTC] PHP Notice:  Undefined property: stdClass::$id in /home/itzik1677/public_html/php/main.php on line 103
+[16-Apr-2014 16:14:40 UTC] PHP Notice:  Undefined property: stdClass::$id in /home/itzik1677/public_html/php/main.php on line 103
+[16-Apr-2014 16:14:40 UTC] PHP Notice:  Undefined property: stdClass::$id in /home/itzik1677/public_html/php/main.php on line 103
+[16-Apr-2014 16:14:40 UTC] PHP Notice:  Undefined property: stdClass::$id in /home/itzik1677/public_html/php/main.php on line 103
+[16-Apr-2014 16:14:41 UTC] PHP Notice:  Undefined property: stdClass::$id in /home/itzik1677/public_html/php/main.php on line 103
+[16-Apr-2014 16:14:41 UTC] PHP Notice:  Undefined property: stdClass::$id in /home/itzik1677/public_html/php/main.php on line 103
+[16-Apr-2014 16:16:40 UTC] PHP Warning:  mysql_set_charset() expects parameter 2 to be resource, object given in /home/itzik1677/public_html/php/main.php on line 24
+[16-Apr-2014 16:16:40 UTC] PHP Notice:  Undefined index: channel in /home/itzik1677/public_html/php/main.php on line 28
+[16-Apr-2014 16:17:32 UTC] PHP Warning:  mysql_set_charset() expects parameter 2 to be resource, object given in /home/itzik1677/public_html/php/main.php on line 24
+[16-Apr-2014 16:17:32 UTC] PHP Notice:  Undefined index: channel in /home/itzik1677/public_html/php/main.php on line 28
+[16-Apr-2014 16:17:58 UTC] PHP Warning:  mysql_set_charset() expects parameter 2 to be resource, object given in /home/itzik1677/public_html/php/main.php on line 24
+[16-Apr-2014 16:17:58 UTC] PHP Notice:  Undefined index: channel in /home/itzik1677/public_html/php/main.php on line 28
+[16-Apr-2014 16:19:45 UTC] PHP Warning:  mysql_set_charset() expects parameter 2 to be resource, object given in /home/itzik1677/public_html/php/main.php on line 24
+[16-Apr-2014 16:19:45 UTC] PHP Notice:  Undefined index: channel in /home/itzik1677/public_html/php/main.php on line 28
+[16-Apr-2014 16:20:18 UTC] PHP Warning:  mysql_set_charset() expects parameter 2 to be resource, object given in /home/itzik1677/public_html/php/main.php on line 24
+[16-Apr-2014 16:20:18 UTC] PHP Notice:  Undefined index: channel in /home/itzik1677/public_html/php/main.php on line 28
+[16-Apr-2014 16:20:36 UTC] PHP Warning:  mysql_set_charset() expects parameter 2 to be resource, object given in /home/itzik1677/public_html/php/main.php on line 24
+[16-Apr-2014 16:20:36 UTC] PHP Notice:  Undefined index: channel in /home/itzik1677/public_html/php/main.php on line 28
+[16-Apr-2014 16:21:10 UTC] PHP Warning:  mysql_set_charset() expects parameter 2 to be resource, object given in /home/itzik1677/public_html/php/main.php on line 24
+[16-Apr-2014 16:21:10 UTC] PHP Notice:  Undefined index: channel in /home/itzik1677/public_html/php/main.php on line 28
+[16-Apr-2014 16:21:11 UTC] PHP Notice:  Undefined variable: t in /home/itzik1677/public_html/php/main.php on line 104
+[16-Apr-2014 16:21:11 UTC] PHP Fatal error:  Cannot access empty property in /home/itzik1677/public_html/php/main.php on line 104
+[16-Apr-2014 16:21:39 UTC] PHP Warning:  mysql_set_charset() expects parameter 2 to be resource, object given in /home/itzik1677/public_html/php/main.php on line 24
+[16-Apr-2014 16:21:39 UTC] PHP Notice:  Undefined index: channel in /home/itzik1677/public_html/php/main.php on line 28
+[16-Apr-2014 16:22:10 UTC] PHP Warning:  mysql_set_charset() expects parameter 2 to be resource, object given in /home/itzik1677/public_html/php/main.php on line 24
+[16-Apr-2014 16:22:10 UTC] PHP Notice:  Undefined index: channel in /home/itzik1677/public_html/php/main.php on line 28
+[16-Apr-2014 16:34:48 UTC] PHP Warning:  mysql_set_charset() expects parameter 2 to be resource, object given in /home/itzik1677/public_html/php/main.php on line 24
+[16-Apr-2014 16:34:48 UTC] PHP Notice:  Undefined index: channel in /home/itzik1677/public_html/php/main.php on line 28
+[16-Apr-2014 16:35:16 UTC] PHP Warning:  mysql_set_charset() expects parameter 2 to be resource, object given in /home/itzik1677/public_html/php/main.php on line 24
+[16-Apr-2014 16:35:16 UTC] PHP Notice:  Undefined index: channel in /home/itzik1677/public_html/php/main.php on line 28
+[16-Apr-2014 16:35:20 UTC] PHP Warning:  mysql_set_charset() expects parameter 2 to be resource, object given in /home/itzik1677/public_html/php/main.php on line 24
+[16-Apr-2014 16:35:20 UTC] PHP Notice:  Undefined index: channel in /home/itzik1677/public_html/php/main.php on line 28
+[16-Apr-2014 16:35:37 UTC] PHP Warning:  mysql_set_charset() expects parameter 2 to be resource, object given in /home/itzik1677/public_html/php/main.php on line 24
+[16-Apr-2014 16:35:37 UTC] PHP Notice:  Undefined index: channel in /home/itzik1677/public_html/php/main.php on line 28
+[16-Apr-2014 16:37:40 UTC] PHP Warning:  mysql_set_charset() expects parameter 2 to be resource, object given in /home/itzik1677/public_html/php/main.php on line 24
+[16-Apr-2014 16:37:40 UTC] PHP Notice:  Undefined index: channel in /home/itzik1677/public_html/php/main.php on line 28
+[16-Apr-2014 16:38:56 UTC] PHP Warning:  mysql_set_charset() expects parameter 2 to be resource, object given in /home/itzik1677/public_html/php/main.php on line 24
+[16-Apr-2014 16:38:56 UTC] PHP Notice:  Undefined index: channel in /home/itzik1677/public_html/php/main.php on line 28
+[16-Apr-2014 16:39:49 UTC] PHP Warning:  mysql_set_charset() expects parameter 2 to be resource, object given in /home/itzik1677/public_html/php/main.php on line 24
+[16-Apr-2014 16:39:49 UTC] PHP Notice:  Undefined index: channel in /home/itzik1677/public_html/php/main.php on line 28
+[16-Apr-2014 16:40:38 UTC] PHP Warning:  mysql_set_charset() expects parameter 2 to be resource, object given in /home/itzik1677/public_html/php/main.php on line 24
+[16-Apr-2014 16:40:38 UTC] PHP Notice:  Undefined index: channel in /home/itzik1677/public_html/php/main.php on line 28
+[16-Apr-2014 16:41:03 UTC] PHP Warning:  mysql_set_charset() expects parameter 2 to be resource, object given in /home/itzik1677/public_html/php/main.php on line 24
+[16-Apr-2014 16:41:03 UTC] PHP Notice:  Undefined index: channel in /home/itzik1677/public_html/php/main.php on line 28
+[16-Apr-2014 16:41:27 UTC] PHP Warning:  mysql_set_charset() expects parameter 2 to be resource, object given in /home/itzik1677/public_html/php/main.php on line 24
+[16-Apr-2014 16:41:27 UTC] PHP Notice:  Undefined index: channel in /home/itzik1677/public_html/php/main.php on line 28
+[16-Apr-2014 16:42:51 UTC] PHP Warning:  mysql_set_charset() expects parameter 2 to be resource, object given in /home/itzik1677/public_html/php/main.php on line 24
+[16-Apr-2014 16:42:51 UTC] PHP Notice:  Undefined index: channel in /home/itzik1677/public_html/php/main.php on line 28
+[16-Apr-2014 16:45:44 UTC] PHP Warning:  mysql_set_charset() expects parameter 2 to be resource, object given in /home/itzik1677/public_html/php/main.php on line 24
+[16-Apr-2014 16:45:44 UTC] PHP Notice:  Undefined index: channel in /home/itzik1677/public_html/php/main.php on line 28
+[16-Apr-2014 16:46:14 UTC] PHP Warning:  mysql_set_charset() expects parameter 2 to be resource, object given in /home/itzik1677/public_html/php/main.php on line 24
+[16-Apr-2014 16:46:14 UTC] PHP Notice:  Undefined index: channel in /home/itzik1677/public_html/php/main.php on line 28
+[16-Apr-2014 16:46:31 UTC] PHP Warning:  mysql_set_charset() expects parameter 2 to be resource, object given in /home/itzik1677/public_html/php/main.php on line 24
+[16-Apr-2014 16:46:31 UTC] PHP Notice:  Undefined index: channel in /home/itzik1677/public_html/php/main.php on line 28
+[16-Apr-2014 16:46:59 UTC] PHP Warning:  mysql_set_charset() expects parameter 2 to be resource, object given in /home/itzik1677/public_html/php/main.php on line 24
+[16-Apr-2014 16:46:59 UTC] PHP Notice:  Undefined index: channel in /home/itzik1677/public_html/php/main.php on line 28
+[16-Apr-2014 16:49:02 UTC] PHP Warning:  mysql_set_charset() expects parameter 2 to be resource, object given in /home/itzik1677/public_html/php/main.php on line 24
+[16-Apr-2014 16:49:02 UTC] PHP Notice:  Undefined index: channel in /home/itzik1677/public_html/php/main.php on line 28
+[16-Apr-2014 16:50:01 UTC] PHP Warning:  mysql_set_charset() expects parameter 2 to be resource, object given in /home/itzik1677/public_html/php/main.php on line 24
+[16-Apr-2014 16:50:01 UTC] PHP Notice:  Undefined index: channel in /home/itzik1677/public_html/php/main.php on line 28
+[16-Apr-2014 16:54:56 UTC] PHP Warning:  mysql_set_charset() expects parameter 2 to be resource, object given in /home/itzik1677/public_html/php/main.php on line 24
+[16-Apr-2014 16:54:56 UTC] PHP Notice:  Undefined index: channel in /home/itzik1677/public_html/php/main.php on line 28
+[16-Apr-2014 16:55:27 UTC] PHP Warning:  mysql_set_charset() expects parameter 2 to be resource, object given in /home/itzik1677/public_html/php/main.php on line 24
+[16-Apr-2014 16:55:27 UTC] PHP Notice:  Undefined index: channel in /home/itzik1677/public_html/php/main.php on line 28
+[16-Apr-2014 16:55:28 UTC] PHP Warning:  file_get_contents(http://gdata.youtube.com/feeds/api/videos?q=Scorpions%20Tease%20Me%20Please%20Me&amp;orderby=relevance&amp;duration=medium&amp;alt=json): failed to open stream: HTTP request failed! HTTP/1.0 400 Bad Request
+ in /home/itzik1677/public_html/php/main.php on line 102
+[16-Apr-2014 16:55:28 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 107
+[16-Apr-2014 16:55:28 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 107
+[16-Apr-2014 16:55:28 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 107
+[16-Apr-2014 16:55:28 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 107
+[16-Apr-2014 16:55:28 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:55:28 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:55:28 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:55:28 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:55:28 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:55:28 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 111
+[16-Apr-2014 16:55:28 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 111
+[16-Apr-2014 16:55:28 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 111
+[16-Apr-2014 16:55:28 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 111
+[16-Apr-2014 16:55:28 UTC] PHP Warning:  file_get_contents(http://gdata.youtube.com/feeds/api/videos?q=Scorpions%20Don't%20Believe%20Her&amp;orderby=relevance&amp;duration=medium&amp;alt=json): failed to open stream: HTTP request failed! HTTP/1.0 400 Bad Request
+ in /home/itzik1677/public_html/php/main.php on line 102
+[16-Apr-2014 16:55:28 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 107
+[16-Apr-2014 16:55:28 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 107
+[16-Apr-2014 16:55:28 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 107
+[16-Apr-2014 16:55:28 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 107
+[16-Apr-2014 16:55:28 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:55:28 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:55:28 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:55:28 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:55:28 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:55:28 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 111
+[16-Apr-2014 16:55:28 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 111
+[16-Apr-2014 16:55:28 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 111
+[16-Apr-2014 16:55:28 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 111
+[16-Apr-2014 16:55:29 UTC] PHP Warning:  file_get_contents(http://gdata.youtube.com/feeds/api/videos?q=Scorpions%20To%20Be%20With%20You%20In%20Heaven&amp;orderby=relevance&amp;duration=medium&amp;alt=json): failed to open stream: HTTP request failed! HTTP/1.0 400 Bad Request
+ in /home/itzik1677/public_html/php/main.php on line 102
+[16-Apr-2014 16:55:29 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 107
+[16-Apr-2014 16:55:29 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 107
+[16-Apr-2014 16:55:29 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 107
+[16-Apr-2014 16:55:29 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 107
+[16-Apr-2014 16:55:29 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:55:29 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:55:29 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:55:29 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:55:29 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:55:29 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 111
+[16-Apr-2014 16:55:29 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 111
+[16-Apr-2014 16:55:29 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 111
+[16-Apr-2014 16:55:29 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 111
+[16-Apr-2014 16:55:29 UTC] PHP Warning:  file_get_contents(http://gdata.youtube.com/feeds/api/videos?q=Scorpions%20Wind%20of%20Change&amp;orderby=relevance&amp;duration=medium&amp;alt=json): failed to open stream: HTTP request failed! HTTP/1.0 400 Bad Request
+ in /home/itzik1677/public_html/php/main.php on line 102
+[16-Apr-2014 16:55:29 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 107
+[16-Apr-2014 16:55:29 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 107
+[16-Apr-2014 16:55:29 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 107
+[16-Apr-2014 16:55:29 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 107
+[16-Apr-2014 16:55:29 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:55:29 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:55:29 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:55:29 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:55:29 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:55:29 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 111
+[16-Apr-2014 16:55:29 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 111
+[16-Apr-2014 16:55:29 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 111
+[16-Apr-2014 16:55:29 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 111
+[16-Apr-2014 16:55:29 UTC] PHP Warning:  file_get_contents(http://gdata.youtube.com/feeds/api/videos?q=Scorpions%20Restless%20Nights&amp;orderby=relevance&amp;duration=medium&amp;alt=json): failed to open stream: HTTP request failed! HTTP/1.0 400 Bad Request
+ in /home/itzik1677/public_html/php/main.php on line 102
+[16-Apr-2014 16:55:29 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 107
+[16-Apr-2014 16:55:29 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 107
+[16-Apr-2014 16:55:29 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 107
+[16-Apr-2014 16:55:29 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 107
+[16-Apr-2014 16:55:29 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:55:29 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:55:29 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:55:29 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:55:29 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:55:29 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 111
+[16-Apr-2014 16:55:29 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 111
+[16-Apr-2014 16:55:29 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 111
+[16-Apr-2014 16:55:29 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 111
+[16-Apr-2014 16:55:29 UTC] PHP Warning:  file_get_contents(http://gdata.youtube.com/feeds/api/videos?q=Scorpions%20Lust%20Or%20Love&amp;orderby=relevance&amp;duration=medium&amp;alt=json): failed to open stream: HTTP request failed! HTTP/1.0 400 Bad Request
+ in /home/itzik1677/public_html/php/main.php on line 102
+[16-Apr-2014 16:55:29 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 107
+[16-Apr-2014 16:55:29 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 107
+[16-Apr-2014 16:55:29 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 107
+[16-Apr-2014 16:55:29 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 107
+[16-Apr-2014 16:55:29 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:55:29 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:55:29 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:55:29 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:55:29 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:55:29 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 111
+[16-Apr-2014 16:55:29 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 111
+[16-Apr-2014 16:55:29 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 111
+[16-Apr-2014 16:55:29 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 111
+[16-Apr-2014 16:55:29 UTC] PHP Warning:  file_get_contents(http://gdata.youtube.com/feeds/api/videos?q=Scorpions%20Kicks%20After%20Six&amp;orderby=relevance&amp;duration=medium&amp;alt=json): failed to open stream: HTTP request failed! HTTP/1.0 400 Bad Request
+ in /home/itzik1677/public_html/php/main.php on line 102
+[16-Apr-2014 16:55:29 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 107
+[16-Apr-2014 16:55:29 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 107
+[16-Apr-2014 16:55:29 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 107
+[16-Apr-2014 16:55:29 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 107
+[16-Apr-2014 16:55:29 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:55:29 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:55:29 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:55:29 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:55:29 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:55:29 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 111
+[16-Apr-2014 16:55:29 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 111
+[16-Apr-2014 16:55:29 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 111
+[16-Apr-2014 16:55:29 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 111
+[16-Apr-2014 16:55:29 UTC] PHP Warning:  file_get_contents(http://gdata.youtube.com/feeds/api/videos?q=Scorpions%20Hit%20Between%20The%20Eyes&amp;orderby=relevance&amp;duration=medium&amp;alt=json): failed to open stream: HTTP request failed! HTTP/1.0 400 Bad Request
+ in /home/itzik1677/public_html/php/main.php on line 102
+[16-Apr-2014 16:55:29 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 107
+[16-Apr-2014 16:55:29 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 107
+[16-Apr-2014 16:55:29 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 107
+[16-Apr-2014 16:55:29 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 107
+[16-Apr-2014 16:55:29 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:55:29 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:55:29 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:55:29 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:55:29 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:55:29 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 111
+[16-Apr-2014 16:55:29 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 111
+[16-Apr-2014 16:55:29 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 111
+[16-Apr-2014 16:55:29 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 111
+[16-Apr-2014 16:55:29 UTC] PHP Warning:  file_get_contents(http://gdata.youtube.com/feeds/api/videos?q=Scorpions%20Money%20And%20Fame&amp;orderby=relevance&amp;duration=medium&amp;alt=json): failed to open stream: HTTP request failed! HTTP/1.0 400 Bad Request
+ in /home/itzik1677/public_html/php/main.php on line 102
+[16-Apr-2014 16:55:29 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 107
+[16-Apr-2014 16:55:29 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 107
+[16-Apr-2014 16:55:29 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 107
+[16-Apr-2014 16:55:29 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 107
+[16-Apr-2014 16:55:29 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:55:29 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:55:29 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:55:29 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:55:29 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:55:29 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 111
+[16-Apr-2014 16:55:29 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 111
+[16-Apr-2014 16:55:29 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 111
+[16-Apr-2014 16:55:29 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 111
+[16-Apr-2014 16:55:29 UTC] PHP Warning:  file_get_contents(http://gdata.youtube.com/feeds/api/videos?q=Scorpions%20Crazy%20World&amp;orderby=relevance&amp;duration=medium&amp;alt=json): failed to open stream: HTTP request failed! HTTP/1.0 400 Bad Request
+ in /home/itzik1677/public_html/php/main.php on line 102
+[16-Apr-2014 16:55:29 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 107
+[16-Apr-2014 16:55:29 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 107
+[16-Apr-2014 16:55:29 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 107
+[16-Apr-2014 16:55:29 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 107
+[16-Apr-2014 16:55:29 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:55:29 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:55:29 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:55:29 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:55:29 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:55:29 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 111
+[16-Apr-2014 16:55:29 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 111
+[16-Apr-2014 16:55:29 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 111
+[16-Apr-2014 16:55:29 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 111
+[16-Apr-2014 16:55:29 UTC] PHP Warning:  file_get_contents(http://gdata.youtube.com/feeds/api/videos?q=Scorpions%20Send%20Me%20An%20Angel&amp;orderby=relevance&amp;duration=medium&amp;alt=json): failed to open stream: HTTP request failed! HTTP/1.0 400 Bad Request
+ in /home/itzik1677/public_html/php/main.php on line 102
+[16-Apr-2014 16:55:29 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 107
+[16-Apr-2014 16:55:29 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 107
+[16-Apr-2014 16:55:29 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 107
+[16-Apr-2014 16:55:29 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 107
+[16-Apr-2014 16:55:29 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:55:29 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:55:29 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:55:29 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:55:29 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:55:29 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 111
+[16-Apr-2014 16:55:29 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 111
+[16-Apr-2014 16:55:29 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 111
+[16-Apr-2014 16:55:29 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 111
+[16-Apr-2014 16:58:00 UTC] PHP Warning:  mysql_set_charset() expects parameter 2 to be resource, object given in /home/itzik1677/public_html/php/main.php on line 24
+[16-Apr-2014 16:58:00 UTC] PHP Notice:  Undefined index: channel in /home/itzik1677/public_html/php/main.php on line 28
+[16-Apr-2014 16:58:00 UTC] PHP Warning:  file_get_contents(http://gdata.youtube.com/feeds/api/videos?q=Scorpions%20Tease%20Me%20Please%20Me&amp;orderby=relevance&amp;sm=12&amp;filters=video&amp;lclk=video&amp;duration=medium&amp;alt=json): failed to open stream: HTTP request failed! HTTP/1.0 400 Bad Request
+ in /home/itzik1677/public_html/php/main.php on line 102
+[16-Apr-2014 16:58:00 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 107
+[16-Apr-2014 16:58:00 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 107
+[16-Apr-2014 16:58:00 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 107
+[16-Apr-2014 16:58:00 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 107
+[16-Apr-2014 16:58:00 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:58:00 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:58:00 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:58:00 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:58:00 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:58:00 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 111
+[16-Apr-2014 16:58:00 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 111
+[16-Apr-2014 16:58:00 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 111
+[16-Apr-2014 16:58:00 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 111
+[16-Apr-2014 16:58:00 UTC] PHP Warning:  file_get_contents(http://gdata.youtube.com/feeds/api/videos?q=Scorpions%20Don't%20Believe%20Her&amp;orderby=relevance&amp;sm=12&amp;filters=video&amp;lclk=video&amp;duration=medium&amp;alt=json): failed to open stream: HTTP request failed! HTTP/1.0 400 Bad Request
+ in /home/itzik1677/public_html/php/main.php on line 102
+[16-Apr-2014 16:58:00 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 107
+[16-Apr-2014 16:58:00 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 107
+[16-Apr-2014 16:58:00 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 107
+[16-Apr-2014 16:58:00 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 107
+[16-Apr-2014 16:58:00 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:58:00 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:58:00 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:58:00 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:58:00 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:58:00 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 111
+[16-Apr-2014 16:58:00 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 111
+[16-Apr-2014 16:58:00 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 111
+[16-Apr-2014 16:58:00 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 111
+[16-Apr-2014 16:58:00 UTC] PHP Warning:  file_get_contents(http://gdata.youtube.com/feeds/api/videos?q=Scorpions%20To%20Be%20With%20You%20In%20Heaven&amp;orderby=relevance&amp;sm=12&amp;filters=video&amp;lclk=video&amp;duration=medium&amp;alt=json): failed to open stream: HTTP request failed! HTTP/1.0 400 Bad Request
+ in /home/itzik1677/public_html/php/main.php on line 102
+[16-Apr-2014 16:58:00 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 107
+[16-Apr-2014 16:58:00 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 107
+[16-Apr-2014 16:58:00 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 107
+[16-Apr-2014 16:58:00 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 107
+[16-Apr-2014 16:58:00 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:58:00 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:58:00 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:58:00 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:58:00 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:58:00 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 111
+[16-Apr-2014 16:58:00 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 111
+[16-Apr-2014 16:58:00 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 111
+[16-Apr-2014 16:58:00 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 111
+[16-Apr-2014 16:58:01 UTC] PHP Warning:  file_get_contents(http://gdata.youtube.com/feeds/api/videos?q=Scorpions%20Wind%20of%20Change&amp;orderby=relevance&amp;sm=12&amp;filters=video&amp;lclk=video&amp;duration=medium&amp;alt=json): failed to open stream: HTTP request failed! HTTP/1.0 400 Bad Request
+ in /home/itzik1677/public_html/php/main.php on line 102
+[16-Apr-2014 16:58:01 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 107
+[16-Apr-2014 16:58:01 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 107
+[16-Apr-2014 16:58:01 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 107
+[16-Apr-2014 16:58:01 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 107
+[16-Apr-2014 16:58:01 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:58:01 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:58:01 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:58:01 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:58:01 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:58:01 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 111
+[16-Apr-2014 16:58:01 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 111
+[16-Apr-2014 16:58:01 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 111
+[16-Apr-2014 16:58:01 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 111
+[16-Apr-2014 16:58:01 UTC] PHP Warning:  file_get_contents(http://gdata.youtube.com/feeds/api/videos?q=Scorpions%20Restless%20Nights&amp;orderby=relevance&amp;sm=12&amp;filters=video&amp;lclk=video&amp;duration=medium&amp;alt=json): failed to open stream: HTTP request failed! HTTP/1.0 400 Bad Request
+ in /home/itzik1677/public_html/php/main.php on line 102
+[16-Apr-2014 16:58:01 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 107
+[16-Apr-2014 16:58:01 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 107
+[16-Apr-2014 16:58:01 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 107
+[16-Apr-2014 16:58:01 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 107
+[16-Apr-2014 16:58:01 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:58:01 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:58:01 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:58:01 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:58:01 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:58:01 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 111
+[16-Apr-2014 16:58:01 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 111
+[16-Apr-2014 16:58:01 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 111
+[16-Apr-2014 16:58:01 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 111
+[16-Apr-2014 16:58:01 UTC] PHP Warning:  file_get_contents(http://gdata.youtube.com/feeds/api/videos?q=Scorpions%20Lust%20Or%20Love&amp;orderby=relevance&amp;sm=12&amp;filters=video&amp;lclk=video&amp;duration=medium&amp;alt=json): failed to open stream: HTTP request failed! HTTP/1.0 400 Bad Request
+ in /home/itzik1677/public_html/php/main.php on line 102
+[16-Apr-2014 16:58:01 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 107
+[16-Apr-2014 16:58:01 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 107
+[16-Apr-2014 16:58:01 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 107
+[16-Apr-2014 16:58:01 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 107
+[16-Apr-2014 16:58:01 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:58:01 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:58:01 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:58:01 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:58:01 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:58:01 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 111
+[16-Apr-2014 16:58:01 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 111
+[16-Apr-2014 16:58:01 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 111
+[16-Apr-2014 16:58:01 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 111
+[16-Apr-2014 16:58:03 UTC] PHP Warning:  file_get_contents(http://gdata.youtube.com/feeds/api/videos?q=Scorpions%20Kicks%20After%20Six&amp;orderby=relevance&amp;sm=12&amp;filters=video&amp;lclk=video&amp;duration=medium&amp;alt=json): failed to open stream: HTTP request failed! HTTP/1.0 400 Bad Request
+ in /home/itzik1677/public_html/php/main.php on line 102
+[16-Apr-2014 16:58:03 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 107
+[16-Apr-2014 16:58:03 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 107
+[16-Apr-2014 16:58:03 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 107
+[16-Apr-2014 16:58:03 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 107
+[16-Apr-2014 16:58:03 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:58:03 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:58:03 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:58:03 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:58:03 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:58:03 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 111
+[16-Apr-2014 16:58:03 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 111
+[16-Apr-2014 16:58:03 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 111
+[16-Apr-2014 16:58:03 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 111
+[16-Apr-2014 16:58:03 UTC] PHP Warning:  file_get_contents(http://gdata.youtube.com/feeds/api/videos?q=Scorpions%20Hit%20Between%20The%20Eyes&amp;orderby=relevance&amp;sm=12&amp;filters=video&amp;lclk=video&amp;duration=medium&amp;alt=json): failed to open stream: HTTP request failed! HTTP/1.0 400 Bad Request
+ in /home/itzik1677/public_html/php/main.php on line 102
+[16-Apr-2014 16:58:03 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 107
+[16-Apr-2014 16:58:03 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 107
+[16-Apr-2014 16:58:03 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 107
+[16-Apr-2014 16:58:03 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 107
+[16-Apr-2014 16:58:03 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:58:03 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:58:03 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:58:03 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:58:03 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:58:03 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 111
+[16-Apr-2014 16:58:03 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 111
+[16-Apr-2014 16:58:03 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 111
+[16-Apr-2014 16:58:03 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 111
+[16-Apr-2014 16:58:03 UTC] PHP Warning:  file_get_contents(http://gdata.youtube.com/feeds/api/videos?q=Scorpions%20Money%20And%20Fame&amp;orderby=relevance&amp;sm=12&amp;filters=video&amp;lclk=video&amp;duration=medium&amp;alt=json): failed to open stream: HTTP request failed! HTTP/1.0 400 Bad Request
+ in /home/itzik1677/public_html/php/main.php on line 102
+[16-Apr-2014 16:58:03 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 107
+[16-Apr-2014 16:58:03 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 107
+[16-Apr-2014 16:58:03 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 107
+[16-Apr-2014 16:58:03 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 107
+[16-Apr-2014 16:58:03 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:58:03 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:58:03 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:58:03 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:58:03 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:58:03 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 111
+[16-Apr-2014 16:58:03 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 111
+[16-Apr-2014 16:58:03 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 111
+[16-Apr-2014 16:58:03 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 111
+[16-Apr-2014 16:58:03 UTC] PHP Warning:  file_get_contents(http://gdata.youtube.com/feeds/api/videos?q=Scorpions%20Crazy%20World&amp;orderby=relevance&amp;sm=12&amp;filters=video&amp;lclk=video&amp;duration=medium&amp;alt=json): failed to open stream: HTTP request failed! HTTP/1.0 400 Bad Request
+ in /home/itzik1677/public_html/php/main.php on line 102
+[16-Apr-2014 16:58:03 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 107
+[16-Apr-2014 16:58:03 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 107
+[16-Apr-2014 16:58:03 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 107
+[16-Apr-2014 16:58:03 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 107
+[16-Apr-2014 16:58:03 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:58:03 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:58:03 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:58:03 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:58:03 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:58:03 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 111
+[16-Apr-2014 16:58:03 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 111
+[16-Apr-2014 16:58:03 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 111
+[16-Apr-2014 16:58:03 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 111
+[16-Apr-2014 16:58:03 UTC] PHP Warning:  file_get_contents(http://gdata.youtube.com/feeds/api/videos?q=Scorpions%20Send%20Me%20An%20Angel&amp;orderby=relevance&amp;sm=12&amp;filters=video&amp;lclk=video&amp;duration=medium&amp;alt=json): failed to open stream: HTTP request failed! HTTP/1.0 400 Bad Request
+ in /home/itzik1677/public_html/php/main.php on line 102
+[16-Apr-2014 16:58:03 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 107
+[16-Apr-2014 16:58:03 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 107
+[16-Apr-2014 16:58:03 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 107
+[16-Apr-2014 16:58:03 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 107
+[16-Apr-2014 16:58:03 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:58:03 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:58:03 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:58:03 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:58:03 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:58:03 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 111
+[16-Apr-2014 16:58:03 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 111
+[16-Apr-2014 16:58:03 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 111
+[16-Apr-2014 16:58:03 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 111
+[16-Apr-2014 16:58:29 UTC] PHP Warning:  mysql_set_charset() expects parameter 2 to be resource, object given in /home/itzik1677/public_html/php/main.php on line 24
+[16-Apr-2014 16:58:29 UTC] PHP Notice:  Undefined index: channel in /home/itzik1677/public_html/php/main.php on line 28
+[16-Apr-2014 16:59:00 UTC] PHP Warning:  mysql_set_charset() expects parameter 2 to be resource, object given in /home/itzik1677/public_html/php/main.php on line 24
+[16-Apr-2014 16:59:00 UTC] PHP Notice:  Undefined index: channel in /home/itzik1677/public_html/php/main.php on line 28
+[16-Apr-2014 16:59:00 UTC] PHP Warning:  file_get_contents(http://gdata.youtube.com/feeds/api/videos?q=Scorpions%20Tease%20Me%20Please%20Me&amp;orderby=relevance&amp;sm=12&amp;filters=video&amp;lclk=video&amp;duration=short&amp;alt=json): failed to open stream: HTTP request failed! HTTP/1.0 400 Bad Request
+ in /home/itzik1677/public_html/php/main.php on line 102
+[16-Apr-2014 16:59:00 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 107
+[16-Apr-2014 16:59:00 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 107
+[16-Apr-2014 16:59:00 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 107
+[16-Apr-2014 16:59:00 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 107
+[16-Apr-2014 16:59:00 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:59:00 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:59:00 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:59:00 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:59:00 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:59:00 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 111
+[16-Apr-2014 16:59:00 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 111
+[16-Apr-2014 16:59:00 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 111
+[16-Apr-2014 16:59:00 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 111
+[16-Apr-2014 16:59:01 UTC] PHP Warning:  file_get_contents(http://gdata.youtube.com/feeds/api/videos?q=Scorpions%20Don't%20Believe%20Her&amp;orderby=relevance&amp;sm=12&amp;filters=video&amp;lclk=video&amp;duration=short&amp;alt=json): failed to open stream: HTTP request failed! HTTP/1.0 400 Bad Request
+ in /home/itzik1677/public_html/php/main.php on line 102
+[16-Apr-2014 16:59:01 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 107
+[16-Apr-2014 16:59:01 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 107
+[16-Apr-2014 16:59:01 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 107
+[16-Apr-2014 16:59:01 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 107
+[16-Apr-2014 16:59:01 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:59:01 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:59:01 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:59:01 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:59:01 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:59:01 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 111
+[16-Apr-2014 16:59:01 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 111
+[16-Apr-2014 16:59:01 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 111
+[16-Apr-2014 16:59:01 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 111
+[16-Apr-2014 16:59:01 UTC] PHP Warning:  file_get_contents(http://gdata.youtube.com/feeds/api/videos?q=Scorpions%20To%20Be%20With%20You%20In%20Heaven&amp;orderby=relevance&amp;sm=12&amp;filters=video&amp;lclk=video&amp;duration=short&amp;alt=json): failed to open stream: HTTP request failed! HTTP/1.0 400 Bad Request
+ in /home/itzik1677/public_html/php/main.php on line 102
+[16-Apr-2014 16:59:01 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 107
+[16-Apr-2014 16:59:01 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 107
+[16-Apr-2014 16:59:01 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 107
+[16-Apr-2014 16:59:01 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 107
+[16-Apr-2014 16:59:01 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:59:01 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:59:01 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:59:01 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:59:01 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:59:01 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 111
+[16-Apr-2014 16:59:01 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 111
+[16-Apr-2014 16:59:01 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 111
+[16-Apr-2014 16:59:01 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 111
+[16-Apr-2014 16:59:02 UTC] PHP Warning:  file_get_contents(http://gdata.youtube.com/feeds/api/videos?q=Scorpions%20Wind%20of%20Change&amp;orderby=relevance&amp;sm=12&amp;filters=video&amp;lclk=video&amp;duration=short&amp;alt=json): failed to open stream: HTTP request failed! HTTP/1.0 400 Bad Request
+ in /home/itzik1677/public_html/php/main.php on line 102
+[16-Apr-2014 16:59:02 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 107
+[16-Apr-2014 16:59:02 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 107
+[16-Apr-2014 16:59:02 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 107
+[16-Apr-2014 16:59:02 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 107
+[16-Apr-2014 16:59:02 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:59:02 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:59:02 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:59:02 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:59:02 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:59:02 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 111
+[16-Apr-2014 16:59:02 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 111
+[16-Apr-2014 16:59:02 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 111
+[16-Apr-2014 16:59:02 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 111
+[16-Apr-2014 16:59:02 UTC] PHP Warning:  file_get_contents(http://gdata.youtube.com/feeds/api/videos?q=Scorpions%20Restless%20Nights&amp;orderby=relevance&amp;sm=12&amp;filters=video&amp;lclk=video&amp;duration=short&amp;alt=json): failed to open stream: HTTP request failed! HTTP/1.0 400 Bad Request
+ in /home/itzik1677/public_html/php/main.php on line 102
+[16-Apr-2014 16:59:02 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 107
+[16-Apr-2014 16:59:02 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 107
+[16-Apr-2014 16:59:02 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 107
+[16-Apr-2014 16:59:02 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 107
+[16-Apr-2014 16:59:02 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:59:02 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:59:02 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:59:02 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:59:02 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:59:02 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 111
+[16-Apr-2014 16:59:02 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 111
+[16-Apr-2014 16:59:02 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 111
+[16-Apr-2014 16:59:02 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 111
+[16-Apr-2014 16:59:02 UTC] PHP Warning:  file_get_contents(http://gdata.youtube.com/feeds/api/videos?q=Scorpions%20Lust%20Or%20Love&amp;orderby=relevance&amp;sm=12&amp;filters=video&amp;lclk=video&amp;duration=short&amp;alt=json): failed to open stream: HTTP request failed! HTTP/1.0 400 Bad Request
+ in /home/itzik1677/public_html/php/main.php on line 102
+[16-Apr-2014 16:59:02 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 107
+[16-Apr-2014 16:59:02 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 107
+[16-Apr-2014 16:59:02 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 107
+[16-Apr-2014 16:59:02 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 107
+[16-Apr-2014 16:59:02 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:59:02 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:59:02 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:59:02 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:59:02 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:59:02 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 111
+[16-Apr-2014 16:59:02 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 111
+[16-Apr-2014 16:59:02 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 111
+[16-Apr-2014 16:59:02 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 111
+[16-Apr-2014 16:59:02 UTC] PHP Warning:  file_get_contents(http://gdata.youtube.com/feeds/api/videos?q=Scorpions%20Kicks%20After%20Six&amp;orderby=relevance&amp;sm=12&amp;filters=video&amp;lclk=video&amp;duration=short&amp;alt=json): failed to open stream: HTTP request failed! HTTP/1.0 400 Bad Request
+ in /home/itzik1677/public_html/php/main.php on line 102
+[16-Apr-2014 16:59:02 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 107
+[16-Apr-2014 16:59:02 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 107
+[16-Apr-2014 16:59:02 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 107
+[16-Apr-2014 16:59:02 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 107
+[16-Apr-2014 16:59:02 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:59:02 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:59:02 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:59:02 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:59:02 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:59:02 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 111
+[16-Apr-2014 16:59:02 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 111
+[16-Apr-2014 16:59:02 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 111
+[16-Apr-2014 16:59:02 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 111
+[16-Apr-2014 16:59:02 UTC] PHP Warning:  file_get_contents(http://gdata.youtube.com/feeds/api/videos?q=Scorpions%20Hit%20Between%20The%20Eyes&amp;orderby=relevance&amp;sm=12&amp;filters=video&amp;lclk=video&amp;duration=short&amp;alt=json): failed to open stream: HTTP request failed! HTTP/1.0 400 Bad Request
+ in /home/itzik1677/public_html/php/main.php on line 102
+[16-Apr-2014 16:59:02 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 107
+[16-Apr-2014 16:59:02 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 107
+[16-Apr-2014 16:59:02 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 107
+[16-Apr-2014 16:59:02 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 107
+[16-Apr-2014 16:59:02 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:59:02 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:59:02 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:59:02 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:59:02 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:59:02 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 111
+[16-Apr-2014 16:59:02 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 111
+[16-Apr-2014 16:59:02 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 111
+[16-Apr-2014 16:59:02 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 111
+[16-Apr-2014 16:59:02 UTC] PHP Warning:  file_get_contents(http://gdata.youtube.com/feeds/api/videos?q=Scorpions%20Money%20And%20Fame&amp;orderby=relevance&amp;sm=12&amp;filters=video&amp;lclk=video&amp;duration=short&amp;alt=json): failed to open stream: HTTP request failed! HTTP/1.0 400 Bad Request
+ in /home/itzik1677/public_html/php/main.php on line 102
+[16-Apr-2014 16:59:02 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 107
+[16-Apr-2014 16:59:02 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 107
+[16-Apr-2014 16:59:02 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 107
+[16-Apr-2014 16:59:02 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 107
+[16-Apr-2014 16:59:02 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:59:02 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:59:02 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:59:02 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:59:02 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:59:02 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 111
+[16-Apr-2014 16:59:02 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 111
+[16-Apr-2014 16:59:02 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 111
+[16-Apr-2014 16:59:02 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 111
+[16-Apr-2014 16:59:03 UTC] PHP Warning:  file_get_contents(http://gdata.youtube.com/feeds/api/videos?q=Scorpions%20Crazy%20World&amp;orderby=relevance&amp;sm=12&amp;filters=video&amp;lclk=video&amp;duration=short&amp;alt=json): failed to open stream: HTTP request failed! HTTP/1.0 400 Bad Request
+ in /home/itzik1677/public_html/php/main.php on line 102
+[16-Apr-2014 16:59:03 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 107
+[16-Apr-2014 16:59:03 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 107
+[16-Apr-2014 16:59:03 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 107
+[16-Apr-2014 16:59:03 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 107
+[16-Apr-2014 16:59:03 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:59:03 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:59:03 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:59:03 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:59:03 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:59:03 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 111
+[16-Apr-2014 16:59:03 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 111
+[16-Apr-2014 16:59:03 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 111
+[16-Apr-2014 16:59:03 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 111
+[16-Apr-2014 16:59:03 UTC] PHP Warning:  file_get_contents(http://gdata.youtube.com/feeds/api/videos?q=Scorpions%20Send%20Me%20An%20Angel&amp;orderby=relevance&amp;sm=12&amp;filters=video&amp;lclk=video&amp;duration=short&amp;alt=json): failed to open stream: HTTP request failed! HTTP/1.0 400 Bad Request
+ in /home/itzik1677/public_html/php/main.php on line 102
+[16-Apr-2014 16:59:03 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 107
+[16-Apr-2014 16:59:03 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 107
+[16-Apr-2014 16:59:03 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 107
+[16-Apr-2014 16:59:03 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 107
+[16-Apr-2014 16:59:03 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:59:03 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:59:03 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:59:03 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:59:03 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 110
+[16-Apr-2014 16:59:03 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 111
+[16-Apr-2014 16:59:03 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 111
+[16-Apr-2014 16:59:03 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 111
+[16-Apr-2014 16:59:03 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 111
+[16-Apr-2014 17:00:40 UTC] PHP Warning:  mysql_set_charset() expects parameter 2 to be resource, object given in /home/itzik1677/public_html/php/main.php on line 24
+[16-Apr-2014 17:00:40 UTC] PHP Notice:  Undefined index: channel in /home/itzik1677/public_html/php/main.php on line 28
+[16-Apr-2014 17:01:56 UTC] PHP Warning:  mysql_set_charset() expects parameter 2 to be resource, object given in /home/itzik1677/public_html/php/main.php on line 24
+[16-Apr-2014 17:01:56 UTC] PHP Notice:  Undefined index: channel in /home/itzik1677/public_html/php/main.php on line 28
+[16-Apr-2014 17:08:14 UTC] PHP Warning:  mysql_set_charset() expects parameter 2 to be resource, object given in /home/itzik1677/public_html/php/main.php on line 24
+[16-Apr-2014 17:08:14 UTC] PHP Notice:  Undefined index: channel in /home/itzik1677/public_html/php/main.php on line 28
+[16-Apr-2014 17:08:14 UTC] PHP Notice:  Undefined variable: artist in /home/itzik1677/public_html/php/main.php on line 101
+[16-Apr-2014 17:08:15 UTC] PHP Notice:  Undefined variable: artist in /home/itzik1677/public_html/php/main.php on line 101
+[16-Apr-2014 17:08:15 UTC] PHP Notice:  Undefined variable: artist in /home/itzik1677/public_html/php/main.php on line 101
+[16-Apr-2014 17:08:16 UTC] PHP Notice:  Undefined variable: artist in /home/itzik1677/public_html/php/main.php on line 101
+[16-Apr-2014 17:08:16 UTC] PHP Notice:  Undefined variable: artist in /home/itzik1677/public_html/php/main.php on line 101
+[16-Apr-2014 17:08:16 UTC] PHP Notice:  Undefined variable: artist in /home/itzik1677/public_html/php/main.php on line 101
+[16-Apr-2014 17:08:17 UTC] PHP Notice:  Undefined variable: artist in /home/itzik1677/public_html/php/main.php on line 101
+[16-Apr-2014 17:08:17 UTC] PHP Notice:  Undefined variable: artist in /home/itzik1677/public_html/php/main.php on line 101
+[16-Apr-2014 17:08:17 UTC] PHP Notice:  Undefined variable: artist in /home/itzik1677/public_html/php/main.php on line 101
+[16-Apr-2014 17:08:17 UTC] PHP Notice:  Undefined variable: artist in /home/itzik1677/public_html/php/main.php on line 101
+[16-Apr-2014 17:08:17 UTC] PHP Notice:  Undefined variable: artist in /home/itzik1677/public_html/php/main.php on line 101
+[16-Apr-2014 17:08:39 UTC] PHP Warning:  mysql_set_charset() expects parameter 2 to be resource, object given in /home/itzik1677/public_html/php/main.php on line 24
+[16-Apr-2014 17:08:39 UTC] PHP Notice:  Undefined index: channel in /home/itzik1677/public_html/php/main.php on line 28
+[16-Apr-2014 17:10:41 UTC] PHP Warning:  mysql_set_charset() expects parameter 2 to be resource, object given in /home/itzik1677/public_html/php/main.php on line 24
+[16-Apr-2014 17:49:23 UTC] PHP Warning:  mysql_set_charset() expects parameter 2 to be resource, object given in /home/itzik1677/public_html/php/main.php on line 24
+[16-Apr-2014 17:49:23 UTC] PHP Notice:  Undefined index: channel in /home/itzik1677/public_html/php/main.php on line 28
+[16-Apr-2014 17:49:23 UTC] PHP Notice:  Undefined index: mbid in /home/itzik1677/public_html/php/main.php on line 67
+[16-Apr-2014 17:49:23 UTC] PHP Warning:  file_get_contents(http://ws.audioscrobbler.com/2.0/?method=album.getinfo&amp;api_key=327927be40a0df73e9a605e03c397d91&amp;artist=ABBA&amp;album=ABBA Gold&amp;format=json): failed to open stream: HTTP request failed!  in /home/itzik1677/public_html/php/main.php on line 77
+[16-Apr-2014 17:49:23 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 81
+[16-Apr-2014 17:49:23 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 81
+[16-Apr-2014 17:49:23 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 81
+[16-Apr-2014 17:49:23 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 83
+[16-Apr-2014 17:49:23 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 83
+[16-Apr-2014 17:50:08 UTC] PHP Warning:  mysql_set_charset() expects parameter 2 to be resource, object given in /home/itzik1677/public_html/php/main.php on line 24
+[16-Apr-2014 17:50:08 UTC] PHP Notice:  Undefined index: channel in /home/itzik1677/public_html/php/main.php on line 28
+[16-Apr-2014 18:10:04 UTC] PHP Warning:  mysql_set_charset() expects parameter 2 to be resource, object given in /home/itzik1677/public_html/php/main.php on line 24
+[16-Apr-2014 18:10:04 UTC] PHP Notice:  Undefined index: channel in /home/itzik1677/public_html/php/main.php on line 28
+[16-Apr-2014 18:10:04 UTC] PHP Notice:  Undefined property: stdClass::$album in /home/itzik1677/public_html/php/main.php on line 80
+[16-Apr-2014 18:10:04 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 80
+[16-Apr-2014 18:10:04 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 80
+[16-Apr-2014 18:10:04 UTC] PHP Notice:  Undefined property: stdClass::$album in /home/itzik1677/public_html/php/main.php on line 82
+[16-Apr-2014 18:10:04 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 82
+[16-Apr-2014 18:10:42 UTC] PHP Warning:  mysql_set_charset() expects parameter 2 to be resource, object given in /home/itzik1677/public_html/php/main.php on line 24
+[16-Apr-2014 18:10:42 UTC] PHP Notice:  Undefined index: channel in /home/itzik1677/public_html/php/main.php on line 28
+[16-Apr-2014 18:10:42 UTC] PHP Notice:  Undefined property: stdClass::$album in /home/itzik1677/public_html/php/main.php on line 80
+[16-Apr-2014 18:10:42 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 80
+[16-Apr-2014 18:10:42 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 80
+[16-Apr-2014 18:10:42 UTC] PHP Notice:  Undefined property: stdClass::$album in /home/itzik1677/public_html/php/main.php on line 82
+[16-Apr-2014 18:10:42 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 82
+[16-Apr-2014 18:11:07 UTC] PHP Warning:  mysql_set_charset() expects parameter 2 to be resource, object given in /home/itzik1677/public_html/php/main.php on line 24
+[16-Apr-2014 18:11:07 UTC] PHP Notice:  Undefined index: channel in /home/itzik1677/public_html/php/main.php on line 28
+[16-Apr-2014 18:11:08 UTC] PHP Notice:  Undefined property: stdClass::$album in /home/itzik1677/public_html/php/main.php on line 81
+[16-Apr-2014 18:11:08 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 81
+[16-Apr-2014 18:11:08 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 81
+[16-Apr-2014 18:11:08 UTC] PHP Notice:  Undefined property: stdClass::$album in /home/itzik1677/public_html/php/main.php on line 83
+[16-Apr-2014 18:11:08 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 83
+[16-Apr-2014 18:13:03 UTC] PHP Warning:  mysql_set_charset() expects parameter 2 to be resource, object given in /home/itzik1677/public_html/php/main.php on line 24
+[16-Apr-2014 18:13:03 UTC] PHP Notice:  Undefined index: channel in /home/itzik1677/public_html/php/main.php on line 28
+[16-Apr-2014 18:13:03 UTC] PHP Notice:  Undefined property: stdClass::$album in /home/itzik1677/public_html/php/main.php on line 81
+[16-Apr-2014 18:13:03 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 81
+[16-Apr-2014 18:13:03 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 81
+[16-Apr-2014 18:13:03 UTC] PHP Notice:  Undefined property: stdClass::$album in /home/itzik1677/public_html/php/main.php on line 83
+[16-Apr-2014 18:13:03 UTC] PHP Notice:  Trying to get property of non-object in /home/itzik1677/public_html/php/main.php on line 83
+[16-Apr-2014 18:13:05 UTC] PHP Warning:  mysql_set_charset() expects parameter 2 to be resource, object given in /home/itzik1677/public_html/php/main.php on line 24
+[16-Apr-2014 18:13:25 UTC] PHP Warning:  mysql_set_charset() expects parameter 2 to be resource, object given in /home/itzik1677/public_html/php/main.php on line 24
+[16-Apr-2014 18:13:30 UTC] PHP Warning:  mysql_set_charset() expects parameter 2 to be resource, object given in /home/itzik1677/public_html/php/main.php on line 24
+[16-Apr-2014 18:17:54 UTC] PHP Fatal error:  Cannot use object of type stdClass as array in /home/itzik1677/public_html/php/main.php on line 89
+[16-Apr-2014 18:18:48 UTC] PHP Fatal error:  Cannot use object of type stdClass as array in /home/itzik1677/public_html/php/main.php on line 89
+[16-Apr-2014 18:25:58 UTC] PHP Fatal error:  Cannot use object of type stdClass as array in /home/itzik1677/public_html/php/main.php on line 89
+[16-Apr-2014 18:26:24 UTC] PHP Fatal error:  Cannot use object of type stdClass as array in /home/itzik1677/public_html/php/main.php on line 89
+[16-Apr-2014 18:27:19 UTC] PHP Fatal error:  Cannot use object of type stdClass as array in /home/itzik1677/public_html/php/main.php on line 89
+[16-Apr-2014 18:28:12 UTC] PHP Fatal error:  Cannot use object of type stdClass as array in /home/itzik1677/public_html/php/main.php on line 88
+[16-Apr-2014 18:28:45 UTC] PHP Fatal error:  Cannot use object of type stdClass as array in /home/itzik1677/public_html/php/main.php on line 89
+[16-Apr-2014 18:28:59 UTC] PHP Fatal error:  Cannot use object of type stdClass as array in /home/itzik1677/public_html/php/main.php on line 89
+[19-Apr-2014 15:47:44 UTC] PHP Warning:  mysql_set_charset() expects parameter 2 to be resource, object given in /home/itzik1677/public_html/php/main.php on line 25
+[19-Apr-2014 15:47:44 UTC] PHP Notice:  Undefined index: channel in /home/itzik1677/public_html/php/main.php on line 29
+[19-Apr-2014 15:47:44 UTC] PHP Warning:  mysql_set_charset() expects parameter 2 to be resource, object given in /home/itzik1677/public_html/php/main.php on line 25
+[19-Apr-2014 15:47:44 UTC] PHP Notice:  Undefined index: channel in /home/itzik1677/public_html/php/main.php on line 29
+[19-Apr-2014 15:47:48 UTC] PHP Warning:  mysql_set_charset() expects parameter 2 to be resource, object given in /home/itzik1677/public_html/php/main.php on line 25
+[19-Apr-2014 15:48:20 UTC] PHP Warning:  mysql_set_charset() expects parameter 2 to be resource, object given in /home/itzik1677/public_html/php/main.php on line 25
+[19-Apr-2014 15:48:20 UTC] PHP Notice:  Undefined index: channel in /home/itzik1677/public_html/php/main.php on line 29
+[05-May-2014 14:46:55 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/itzik1677/public_html/php/main.php on line 146
+[05-May-2014 14:47:25 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/itzik1677/public_html/php/main.php on line 146
+[05-May-2014 14:48:25 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/itzik1677/public_html/php/main.php on line 146
+[05-May-2014 14:49:00 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/itzik1677/public_html/php/main.php on line 146
+[05-May-2014 14:52:15 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/itzik1677/public_html/php/main.php on line 146
+[05-May-2014 14:52:44 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/itzik1677/public_html/php/main.php on line 146
+[05-May-2014 14:56:57 UTC] PHP Warning:  mysql_set_charset() expects parameter 2 to be resource, object given in /home/itzik1677/public_html/php/main.php on line 25
+[05-May-2014 14:56:57 UTC] PHP Notice:  Undefined index: channel in /home/itzik1677/public_html/php/main.php on line 29
+[05-May-2014 14:56:57 UTC] PHP Notice:  Undefined index: type in /home/itzik1677/public_html/php/main.php on line 38
+[05-May-2014 14:56:57 UTC] PHP Notice:  Undefined index: type in /home/itzik1677/public_html/php/main.php on line 40
+[05-May-2014 14:56:57 UTC] PHP Notice:  Undefined index: type in /home/itzik1677/public_html/php/main.php on line 45
+[05-May-2014 14:56:57 UTC] PHP Notice:  Undefined index: type in /home/itzik1677/public_html/php/main.php on line 50
+[05-May-2014 14:56:57 UTC] PHP Notice:  Undefined index: type in /home/itzik1677/public_html/php/main.php on line 62
+[05-May-2014 14:56:57 UTC] PHP Notice:  Undefined index: type in /home/itzik1677/public_html/php/main.php on line 67
+[05-May-2014 14:56:57 UTC] PHP Notice:  Undefined index: type in /home/itzik1677/public_html/php/main.php on line 91
+[05-May-2014 14:56:57 UTC] PHP Notice:  Use of undefined constant FB_EXIST_USER_CONNECTION - assumed 'FB_EXIST_USER_CONNECTION' in /home/itzik1677/public_html/php/main.php on line 127
+[05-May-2014 14:57:05 UTC] PHP Warning:  mysql_set_charset() expects parameter 2 to be resource, object given in /home/itzik1677/public_html/php/main.php on line 25
+[05-May-2014 14:57:05 UTC] PHP Notice:  Undefined index: channel in /home/itzik1677/public_html/php/main.php on line 29
+[05-May-2014 14:57:05 UTC] PHP Notice:  Undefined index: type in /home/itzik1677/public_html/php/main.php on line 38
+[05-May-2014 14:57:05 UTC] PHP Notice:  Undefined index: type in /home/itzik1677/public_html/php/main.php on line 40
+[05-May-2014 14:57:05 UTC] PHP Notice:  Undefined index: type in /home/itzik1677/public_html/php/main.php on line 45
+[05-May-2014 14:57:05 UTC] PHP Notice:  Undefined index: type in /home/itzik1677/public_html/php/main.php on line 50
+[05-May-2014 14:57:05 UTC] PHP Notice:  Undefined index: type in /home/itzik1677/public_html/php/main.php on line 62
+[05-May-2014 14:57:05 UTC] PHP Notice:  Undefined index: type in /home/itzik1677/public_html/php/main.php on line 67
+[05-May-2014 14:57:05 UTC] PHP Notice:  Undefined index: type in /home/itzik1677/public_html/php/main.php on line 91
+[05-May-2014 14:57:05 UTC] PHP Notice:  Use of undefined constant FB_EXIST_USER_CONNECTION - assumed 'FB_EXIST_USER_CONNECTION' in /home/itzik1677/public_html/php/main.php on line 127
+[06-May-2014 06:40:02 UTC] PHP Warning:  mysql_set_charset() expects parameter 2 to be resource, object given in /home/itzik1677/public_html/php/main.php on line 25
+[06-May-2014 06:40:02 UTC] PHP Notice:  Undefined index: channel in /home/itzik1677/public_html/php/main.php on line 29
+[06-May-2014 06:40:02 UTC] PHP Notice:  Undefined index: type in /home/itzik1677/public_html/php/main.php on line 38
+[06-May-2014 06:40:02 UTC] PHP Notice:  Undefined index: type in /home/itzik1677/public_html/php/main.php on line 40
+[06-May-2014 06:40:02 UTC] PHP Notice:  Undefined index: type in /home/itzik1677/public_html/php/main.php on line 45
+[06-May-2014 06:40:02 UTC] PHP Notice:  Undefined index: type in /home/itzik1677/public_html/php/main.php on line 50
+[06-May-2014 06:40:02 UTC] PHP Notice:  Undefined index: type in /home/itzik1677/public_html/php/main.php on line 62
+[06-May-2014 06:40:02 UTC] PHP Notice:  Undefined index: type in /home/itzik1677/public_html/php/main.php on line 67
+[06-May-2014 06:40:02 UTC] PHP Notice:  Undefined index: type in /home/itzik1677/public_html/php/main.php on line 91
+[06-May-2014 06:40:02 UTC] PHP Notice:  Use of undefined constant FB_EXIST_USER_CONNECTION - assumed 'FB_EXIST_USER_CONNECTION' in /home/itzik1677/public_html/php/main.php on line 127
+[06-May-2014 06:40:45 UTC] PHP Warning:  mysql_set_charset() expects parameter 2 to be resource, object given in /home/itzik1677/public_html/php/main.php on line 25
+[06-May-2014 06:40:45 UTC] PHP Notice:  Undefined index: channel in /home/itzik1677/public_html/php/main.php on line 29
+[06-May-2014 06:40:45 UTC] PHP Notice:  Undefined index: type in /home/itzik1677/public_html/php/main.php on line 38
+[06-May-2014 06:40:45 UTC] PHP Notice:  Undefined index: type in /home/itzik1677/public_html/php/main.php on line 40
+[06-May-2014 06:40:45 UTC] PHP Notice:  Undefined index: type in /home/itzik1677/public_html/php/main.php on line 45
+[06-May-2014 06:40:45 UTC] PHP Notice:  Undefined index: type in /home/itzik1677/public_html/php/main.php on line 50
+[06-May-2014 06:40:45 UTC] PHP Notice:  Undefined index: type in /home/itzik1677/public_html/php/main.php on line 62
+[06-May-2014 06:40:45 UTC] PHP Notice:  Undefined index: type in /home/itzik1677/public_html/php/main.php on line 67
+[06-May-2014 06:40:45 UTC] PHP Notice:  Undefined index: type in /home/itzik1677/public_html/php/main.php on line 91
+[06-May-2014 06:40:45 UTC] PHP Notice:  Use of undefined constant FB_EXIST_USER_CONNECTION - assumed 'FB_EXIST_USER_CONNECTION' in /home/itzik1677/public_html/php/main.php on line 127
+[06-May-2014 06:40:52 UTC] PHP Warning:  mysql_set_charset() expects parameter 2 to be resource, object given in /home/itzik1677/public_html/php/main.php on line 25
+[06-May-2014 06:40:52 UTC] PHP Notice:  Undefined index: channel in /home/itzik1677/public_html/php/main.php on line 29
+[06-May-2014 06:42:45 UTC] PHP Warning:  mysql_set_charset() expects parameter 2 to be resource, object given in /home/itzik1677/public_html/php/main.php on line 26
+[06-May-2014 06:42:45 UTC] PHP Notice:  Undefined index: channel in /home/itzik1677/public_html/php/main.php on line 30
+[06-May-2014 06:42:45 UTC] PHP Notice:  Undefined index: type in /home/itzik1677/public_html/php/main.php on line 39
+[06-May-2014 06:42:45 UTC] PHP Notice:  Undefined index: type in /home/itzik1677/public_html/php/main.php on line 41
+[06-May-2014 06:42:45 UTC] PHP Notice:  Undefined index: type in /home/itzik1677/public_html/php/main.php on line 46
+[06-May-2014 06:42:45 UTC] PHP Notice:  Undefined index: type in /home/itzik1677/public_html/php/main.php on line 51
+[06-May-2014 06:42:45 UTC] PHP Notice:  Undefined index: type in /home/itzik1677/public_html/php/main.php on line 63
+[06-May-2014 06:42:45 UTC] PHP Notice:  Undefined index: type in /home/itzik1677/public_html/php/main.php on line 68
+[06-May-2014 06:42:45 UTC] PHP Notice:  Undefined index: type in /home/itzik1677/public_html/php/main.php on line 92
+[06-May-2014 06:42:45 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/itzik1677/public_html/php/main.php on line 150
